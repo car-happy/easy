@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PPT Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h1>AI → PowerPoint</h1>
+      <p>Type or speak a topic and generate a .pptx file.</p>
+
+      <label for="topic">Topic</label>
+      <textarea id="topic"></textarea>
+
+      <div class="buttons">
+        <button id="speakBtn">🎤 Speak</button>
+        <button id="generateBtn" class="btn-primary">Generate PPTX</button>
+      </div>
+
+      <p class="note">Backend must run at <code>http://localhost:8000</code></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
